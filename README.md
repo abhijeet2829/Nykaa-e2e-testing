@@ -47,8 +47,3 @@ The repository does not include a package manifest or Cypress configuration. The
 - Select sorting and category filters, and exercise adding 3 products to a cart with a cart-count assertion.
 - Keep reusable selectors and actions in [the product page class](./e2e/POM/Product.js); test cases live in [the Cypress spec](./e2e/spec.cy.js).
 - Review the [test plan](./test%20Plan.pdf), [test scenarios and cases](./test%20Scenarios%20and%20Cases.xlsx), [bug report](./Bug%20report.pdf), [summary report](./Summary%20report.pdf).
-
-## Results and limitations
-
-Some test blocks are placeholders; the filter check does not assert a filtered result, and the item-removal test is noted as inconclusive in the source. The dependency setup and suite have not been rerun for this documentation update. Website changes, plugin compatibility, selectors and browser differences can affect execution; no current passing result is claimed.
-
